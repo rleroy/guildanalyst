@@ -16,7 +16,7 @@ Then "Batman" should have 1 card in hand and played no cards
 Then "Joker" should have 1 card in hand and played no cards
 Then 1 card should be removed hidden
 Then 3 cards should be removed and shown
-Then 10 should be in the deck
+Then 10 cards should be in the deck
 
 Scenario: Setting up with 3 players
 Given a player is named "Batman"
@@ -27,4 +27,4 @@ Then "Batman" should have 1 card in hand and played no cards
 Then "Joker" should have 1 card in hand and played no cards
 Then "Random" should have 1 card in hand and played no cards
 Then 1 card should be removed hidden
-Then 12 should be in the deck
+Then 12 cards should be in the deck

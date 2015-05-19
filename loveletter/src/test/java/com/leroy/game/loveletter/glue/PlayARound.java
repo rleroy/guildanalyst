@@ -55,7 +55,7 @@ public class PlayARound {
         Assert.assertEquals(nbCards, game.getRemovedShownCards().size());
     }
 
-    @Then("^(\\d+) should be in the deck$")
+    @Then("^(\\d+) cards should be in the deck$")
     public void should_be_in_the_deck(int nbCards) throws Throwable {
         Assert.assertEquals(nbCards, game.getCardsInDeck().size());
     }
